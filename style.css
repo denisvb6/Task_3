@@ -1,0 +1,18 @@
+
+
+a {
+    font-size: 5rem;
+    text-decoration: none;
+    color: black;
+
+    display: inline-flex; 
+    align-items: center;
+}
+
+a::before {
+    content: url(./images/icon-pdf.svg);
+}
+
+a[href$=".pdf"] {
+    content: "PDF";
+}
